@@ -4,6 +4,19 @@ emr-serverless-labs-cli
 
 #### Command
 ```
+Step 1:
+pip3 install emr-cli
+
+Step 2:
+    setx ACCESS_KEY "XXX"
+    setx SECRET_KEY "XXXX"
+    OR
+    aws configure
+
+Step 3:
+emr init my-project
+
+Step 4:
 emr run `
     --entry-point entrypoint.py `
     --application-id <application id> `
